@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "bdd:e2e": "bddgen && playwright test",
+    "test": "bddgen && playwright test",
     "e2e": "playwright test",
     "dev": "vite",
     "build": "tsc -b && vite build",
